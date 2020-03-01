@@ -107,14 +107,18 @@ convert(input, output, callback, verbose);
 const convert = require('media-converter');
 
 convert('dog.jpg', 'dog.png'); //with no callbacks
+
 convert('dog.png', 'dog.webp', () => console.log("png => webp")); //with a simple callback
+
 convert('drinking.mkv', 'drinking.mp4', (err) => {
   if (!err){
     console.log("Completed!")
   }
 }); //with a complete callback
+
 convert('bad-guy-video.mp4', 'bad-guy-audio.mp3', null, false); //with no verbose
-convert('billie-eilish.png', 'billie-eilish.png'); //just compressing
+
+convert('billie-eilish.png', 'billie-eilish-compressed.png'); //just compressing
 
 ```
 
