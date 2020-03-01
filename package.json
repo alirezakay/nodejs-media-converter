@@ -1,0 +1,26 @@
+{
+  "name": "media-converter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alirezakay/rp-app.git"
+  },
+  "description": "convert multimedia as easy as you like in nodejs (javascript on server): image, video and audio converter (with compression)",
+  "author": {
+    "name": "Alireza Kavian",
+    "email": "kay.alireza@gmail.com",
+    "url": "https://alireza-kavian.github.io"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "imagemin": "^7.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "imagemin-svgo": "^7.1.0",
+    "imagemin-webp": "^5.1.0"
+  }
+}
