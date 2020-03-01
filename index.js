@@ -1,5 +1,3 @@
-const convert = require("./converter");
+const {convert} = require("./converter");
 
-module.exports = {
-  convert
-}
+module.exports = convert;

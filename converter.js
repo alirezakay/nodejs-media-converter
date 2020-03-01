@@ -50,15 +50,16 @@ function convert(input, output, callback, verbose = true) {
     .on('end', async () => {
       const imageExt = [".jpg", ".jpeg", ".png", ".webp", ".svg", ".gif"];
       if (imageExt.includes(path.extname(output).toLowerCase())) {
+        let intervaller = null;
         if (verbose) {
           process.stdout.write(">>".magenta + " media converted and now optimizing ...");
-          const intervaller = setInterval(() => {
+          intervaller = setInterval(() => {
             process.stdout.write(".");
           }, 50);
         }
         await compressor(output).then(() => {
           if (verbose) {
-            clearInterval(intervaller);
+            if(intervaller) clearInterval(intervaller);
             console.log("");
           }
         });
@@ -79,5 +80,5 @@ function convert(input, output, callback, verbose = true) {
 }
 
 module.exports = {
-  convert,
-}
+  convert: convert
+};
