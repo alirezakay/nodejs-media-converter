@@ -50,8 +50,9 @@ yarn install media-converter
 ### 1. Install FFmpeg tools on your system
 
 Its size is about 67.5M \
-You can find the installing solutions in their site here: **[ffmpeg](https://ffmpeg.org/)** \
-But you can do these steps that I introduce in preference to the first approach:
+You can find the installation solutions at their website here: **[ffmpeg](https://ffmpeg.org/)**
+
+But you can do these steps I'll introduce in preference to the first approach:
 
 - Windows :  \
   first, you need to install a download package manager for windows (sth like apt for Linux). \
@@ -85,7 +86,7 @@ But you can do these steps that I introduce in preference to the first approach:
 
 ## Usage
 
-This project accomplished with *node v10.16.3*. \
+This project has benn accomplished with *node v10.16.3*. \
 If you cannot run (and having errors) just feel free to open an issue on its GitHub page.
 
 ```js
@@ -103,8 +104,8 @@ convert(input, output, callback, verbose);
 ### Examples
 
 ```js
-
 const convert = require('media-converter');
+
 
 convert('dog.jpg', 'dog.png'); //with no callbacks
 
@@ -134,4 +135,4 @@ As I said before, this module uses some other tools:
 - [fluent-ffmpeg](https://www.npmjs.com/package/fluent-ffmpeg) module
 - [imagemin](https://www.npmjs.com/package/imagemin) module
 
-And I thank the developers of the tools mentioned before.
+Finally I thank the developers of the tools mentioned before.
