@@ -49,10 +49,13 @@ yarn add media-converter
 
 ### 1. Install FFmpeg tools on your system
 
-Its size is about 67.5M \
+Its size is about 67.5M
+
 You can find the installation solutions at their website here: **[ffmpeg](https://ffmpeg.org/)**
 
-But you can do these steps I'll introduce in preference to the first approach:
+OR
+
+You can do the following commands in preference to the first approach:
 
 - Windows :  \
   first, you need to install a download package manager for windows (sth like apt for Linux). \
