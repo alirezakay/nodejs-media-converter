@@ -86,7 +86,7 @@ But you can do these steps I'll introduce in preference to the first approach:
 
 ## Usage
 
-This project has benn accomplished with *node v10.16.3*. \
+This project has been accomplished with *node v10.16.3*. \
 If you cannot run (and having errors) just feel free to open an issue on its GitHub page.
 
 ```js
