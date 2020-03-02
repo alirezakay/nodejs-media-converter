@@ -12,13 +12,13 @@ Besides, [**ffmpeg**](https://ffmpeg.org/) tools are utilized for having a bette
 Install the module by using one of these commands:
 
 ```bash
-npm install media-converter
+npm install --save media-converter
 ```
 
 OR
 
 ```bash
-yarn install media-converter
+yarn add media-converter
 ```
 
 ----
