@@ -31,9 +31,7 @@ yarn add media-converter
 - Videos => (`all formats supported by` [ffmpeg](https://ffmpeg.org))
 - Audios => (`all formats supported by` [ffmpeg](https://ffmpeg.org))
 
-\>> The succeeded **conversion** just applies to the images (and not the other media)
-
-\>> You *cannot* use the compression method individually.
+\>> The **compression** is just being applied to the images (and not the other media)
 
 ----
 
